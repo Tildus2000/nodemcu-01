@@ -20,7 +20,7 @@ När Arduino IDE är nedladdat behöver du göra följande:
 3. Gå in på *Tools* -> *board* och tyck på *esp8266* -> välja versionen högst upp som heter `Generic ESP8266 Module`
 
 Öppna ditt Pulsivo kit och se till att du har följande:
-* NODEMCU (microcontroller)
+* NodeMCU (microcontroller)
 * Breadborad (för att fästa microcontrollen på) 
 * USB/ USB-C cable - Type A. Beroende på vilken dator du har behöver du viss kabel, en Mac behöver en USB-C och en Windows behöver en USB. 
    
