@@ -42,7 +42,7 @@ När ovanstående är klart öppna ditt Pulsivo kit och se till att du har följ
 *   Bland annat består denna koden av två  `delay (1000)` detta betyder att programmet ska pausa i x-antal millisekunder ( koden är förinställd på 1000 millisekunder), vilket gör att lampan blinkar progremmet pausar när lampan är på och pausar när lampan är av. 
 * Denna tid kan man ändra genom att exempelvis ta bort en nolla, eller fler. <img width="701" height="175" alt="kodbilnk" src="https://github.com/user-attachments/assets/3c4ee646-033c-4bfe-9a62-da5e33ffa93f" />
 
-*Jag testade att ta bort alla nollor, vilket innebär att pausen sker på 1 miliskeund och återupptas på 1 miliskeund. Eftersom detta sker så snabbt uppfattar vi de som att lampan lyser konstant istället.<img width="977" height="189" alt="kodblink2" src="https://github.com/user-attachments/assets/bd68fe08-2f87-4182-8e92-ca0a61c9c7a8" />
+* Jag testade att ta bort alla nollor, vilket innebär att pausen sker på 1 miliskeund och återupptas på 1 miliskeund. Eftersom detta sker så snabbt uppfattar vi de som att lampan lyser konstant istället.<img width="977" height="189" alt="kodblink2" src="https://github.com/user-attachments/assets/bd68fe08-2f87-4182-8e92-ca0a61c9c7a8" />
 <img src="assets/IMG_2827.gif" width="300">
 
 
