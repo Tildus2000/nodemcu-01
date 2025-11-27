@@ -1,6 +1,6 @@
 # Instruktion för att utföra *blink* med Arduino IDE och Pulsivo 
 
-Detta repo redogör hur man genom Arduino IDE och Plusivo kan utför "blink" funktionen på NodeMCU microcontroller.
+I Detta repo redogör jag för hur man genom Arduino IDE och Plusivo kan utför "blink" funktionen på en NodeMCU microcontroller.
 
 ## Förutsättningar 
 För att kunna utföra detta behöver du följande:
