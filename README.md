@@ -17,7 +17,7 @@ För att kunna utföra detta behöver du följande:
 När Arduino IDE är nedladdat behöver du göra följande:
 
 1. Öppna programmet och `klicka`på progammtiteln i vänstra hörnet, därefter gå till *preferences* och klistra in följande URL-kod: `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
-2. Gå till *borads manager* och skriva in `esp8266`och installera ( de kan ta tid, var tålmodig)
+2. Gå till *borads manager* och skriva in "esp8266" och installera ( de kan ta tid, var tålmodig)
 3. Gå in på *Tools* -> *board* och tyck på *esp8266* -> välja versionen högst upp som heter `Generic ESP8266 Module`
 
 När ovanstående är klart öppna ditt Pulsivo kit och se till att du har följande:
@@ -37,16 +37,16 @@ När ovanstående är klart öppna ditt Pulsivo kit och se till att du har följ
 ## koden för *blink* funktion 
 
 * koden som finns i rad 26 - 36 består av två delar `void setup` och `void loop`.
-* `Void setup` är en funktion som finns i Arduino IDE och som körs endast när micro controller startas upp eller startas om, om man exemplvis gör några ändringar i `void loop`.
-* ` Void loop ()` innebär att koden inom () ska utföras om och om igen.
-*   Bland annat består denna koden av två  `delay (1000)` detta betyder att programmet ska pausa i x-antal millisekunder ( koden är förinställd på 1000 millisekunder), vilket gör att lampan blinkar progremmet pausar när lampan är på och pausar när lampan är av. 
-* Denna tid kan man ändra genom att exempelvis ta bort en nolla, eller fler. <img width="701" height="175" alt="kodbilnk" src="https://github.com/user-attachments/assets/3c4ee646-033c-4bfe-9a62-da5e33ffa93f" />
+* `void setup` är en funktion som finns i Arduino IDE och som körs endast när micro controller startas upp eller startas om, om man exemplvis gör några ändringar i `void loop`.
+* ` void loop ()` är en kod som ska utföra om och om igen, det är koden inom {} är det som upprepas om och om igen.
+*   Bland annat består denna koden av två st  `delay (1000)` detta betyder att programmet ska pausa i x-antal millisekunder när lampan är tänd och släkt, vilket gör att lampan blinkar.
+* Koden är förinställd på `1000` millisekunder ( 1 sekund).Denna tid kan man ändra genom att exempelvis ta bort en nolla, eller fler. <img width="701" height="175" alt="kodbilnk" src="https://github.com/user-attachments/assets/3c4ee646-033c-4bfe-9a62-da5e33ffa93f" />
 
-* Jag testade att ta bort alla nollor, vilket innebär att pausen sker på 1 miliskeund och återupptas på 1 miliskeund. Eftersom detta sker så snabbt uppfattar vi de som att lampan lyser konstant istället.<img width="977" height="189" alt="kodblink2" src="https://github.com/user-attachments/assets/bd68fe08-2f87-4182-8e92-ca0a61c9c7a8" />
+* Jag testade att ta bort alla nollor, vilket innebär att pausen sker på 1 miliskeund och återupptas på 1 miliskeund. Eftersom detta sker så snabbt uppfatts de som att lampan lyser konstant istället.<img width="977" height="189" alt="kodblink2" src="https://github.com/user-attachments/assets/bd68fe08-2f87-4182-8e92-ca0a61c9c7a8" />
 <img src="assets/IMG_2827.gif" width="300">
 
 
-#### kom ihåg att så fort du ändrar något behöver du tycka på verify och upload! Lycka till!
+#### kom ihåg att så fort du ändrar något exempelvis tid på loopen, behöver du tycka på verify och upload! Lycka till!
 
 
 
