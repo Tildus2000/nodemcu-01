@@ -4,7 +4,11 @@ I detta repo redogör jag för hur man genom Arduino IDE och Plusivo kan utför 
 
 ## Förutsättningar 
 För att kunna utföra detta behöver du följande:
-* ladda ner mjukvaroprogrammet Arduino IDE till din dator och ett Pulsivo kit med en NodeMCU micro controller, dessa ser ut på följande sätt:
+* ladda ner mjukvaroprogrammet Arduino IDE till din dator
+* Ett Pulsivo kit med en NodeMCU micro controller
+
+ 
+ Dessa ser ut på följande sätt:
 
 <p> 
 <img src="assets/arduino.png" width="300">
@@ -17,7 +21,8 @@ För att kunna utföra detta behöver du följande:
 När Arduino IDE är nedladdat behöver du göra följande:
 
 1. Öppna programmet och `klicka`på progammtiteln i vänstra hörnet, därefter gå till *preferences* och klistra in följande URL-kod: `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
-2. Gå till *borads manager* och skriva in "esp8266" och installera ( de kan ta tid, var tålmodig)
+2. Gå till *borads manager* <img width="40" height="40" alt="Skärmavbild 2025-11-28 kl  11 05 43" src="https://github.com/user-attachments/assets/1b7484f5-1ee2-4073-b399-a85933f5ae81" />
+och skriva in "esp8266" och installera ( de kan ta tid, var tålmodig)
 3. Gå in på *Tools* -> *board* och tyck på *esp8266* -> välja versionen högst upp som heter `Generic ESP8266 Module`
 
 När ovanstående är klart öppna ditt Pulsivo kit och se till att du har följande:
